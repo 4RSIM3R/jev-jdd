@@ -96,8 +96,8 @@
     }
   },
   "47dcfe86d2f601a3fa2fe5f850cc74b744481a675e8111ebc711215f9685390b": {
-    "recorded_at": "2026-09-25T15:01:33",
-    "latency_ms": 856.0,
+    "recorded_at": "2026-09-26T09:42:38",
+    "latency_ms": 472.5,
     "state": "Driver canceled my order 3 times and I got charged twice. Refund me NOW or I'm uninstalling.",
     "questions": {
       "q": {
@@ -118,16 +118,37 @@
         "confidence": 0.99,
         "probabilities": {
           "driver_issue": 0.01,
-          "refund": 0.99,
           "app_bug": 0.0,
-          "other": 0.0
+          "other": 0.0,
+          "refund": 0.99
         }
       }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 371,
+        "output_tokens": 47
+      },
+      "answers": {
+        "q": {
+          "type": "choice",
+          "choice": "refund",
+          "confidence": 0.99,
+          "probabilities": {
+            "driver_issue": 0.01,
+            "app_bug": 0.0,
+            "other": 0.0,
+            "refund": 0.99
+          }
+        }
+      },
+      "request_id": "req_01a0db97de00799f8a070d7ff875c459"
     }
   },
   "58f3d1ce82b5a37d21b8b0cd204a106761d60997f3dbfcf70c9832b04a46b508": {
-    "recorded_at": "2026-09-25T15:18:55",
-    "latency_ms": 764.6,
+    "recorded_at": "2026-09-26T09:57:44",
+    "latency_ms": 369.8,
     "state": "Please refund order #8812, I was charged twice for the same meal.",
     "questions": {
       "category": {
@@ -148,9 +169,9 @@
         "confidence": 1.0,
         "probabilities": {
           "refund": 1.0,
-          "driver_issue": 0.0,
           "other": 0.0,
-          "app_bug": 0.0
+          "app_bug": 0.0,
+          "driver_issue": 0.0
         }
       }
     },
@@ -167,18 +188,18 @@
           "confidence": 1.0,
           "probabilities": {
             "refund": 1.0,
-            "driver_issue": 0.0,
             "other": 0.0,
-            "app_bug": 0.0
+            "app_bug": 0.0,
+            "driver_issue": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7a564277003b5bd26e72c24508d"
+      "request_id": "req_01a0dba5b29c70e49c13aac337f2d6ac"
     }
   },
   "17e2fb7e47e3b39e529de2811c09b65c4b793011d27a7af0a41e5538bad314fe": {
-    "recorded_at": "2026-09-25T15:29:36",
-    "latency_ms": 721.8,
+    "recorded_at": "2026-09-26T09:57:44",
+    "latency_ms": 350.9,
     "state": "Driver canceled my order 3 times and I got charged twice. Refund me NOW or I'm uninstalling.",
     "questions": {
       "category": {
@@ -198,10 +219,10 @@
         "choice": "refund",
         "confidence": 0.99,
         "probabilities": {
-          "app_bug": 0.0,
-          "driver_issue": 0.01,
+          "refund": 0.99,
           "other": 0.0,
-          "refund": 0.99
+          "driver_issue": 0.01,
+          "app_bug": 0.0
         }
       }
     },
@@ -217,19 +238,19 @@
           "choice": "refund",
           "confidence": 0.99,
           "probabilities": {
-            "app_bug": 0.0,
-            "driver_issue": 0.01,
+            "refund": 0.99,
             "other": 0.0,
-            "refund": 0.99
+            "driver_issue": 0.01,
+            "app_bug": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7af29e17b8f8d8146e7719f32cb"
+      "request_id": "req_01a0dba5b2977ae7956ae50cb9b7f822"
     }
   },
   "e3a6e5c35b09f4250651f65a0faec247427c3f7a8d6a3b29a262d5a5f40d068e": {
-    "recorded_at": "2026-09-25T15:18:56",
-    "latency_ms": 272.8,
+    "recorded_at": "2026-09-26T09:57:44",
+    "latency_ms": 366.6,
     "state": "Can I change the delivery address after ordering?",
     "questions": {
       "category": {
@@ -249,9 +270,9 @@
         "choice": "other",
         "confidence": 1.0,
         "probabilities": {
-          "app_bug": 0.0,
           "other": 1.0,
           "refund": 0.0,
+          "app_bug": 0.0,
           "driver_issue": 0.0
         }
       }
@@ -268,19 +289,19 @@
           "choice": "other",
           "confidence": 1.0,
           "probabilities": {
-            "app_bug": 0.0,
             "other": 1.0,
             "refund": 0.0,
+            "app_bug": 0.0,
             "driver_issue": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7a5653c78bfae28fdb69d374e76"
+      "request_id": "req_01a0dba5b3b57412b211b1e69b4bf666"
     }
   },
   "d78028d124f1a06bb1d7161d68f45e0c07939c391803e99fb265820e671ef335": {
-    "recorded_at": "2026-09-25T15:18:55",
-    "latency_ms": 762.2,
+    "recorded_at": "2026-09-26T09:57:44",
+    "latency_ms": 380.2,
     "state": "App keeps crashing every time I press the pay button.",
     "questions": {
       "category": {
@@ -300,10 +321,10 @@
         "choice": "app_bug",
         "confidence": 1.0,
         "probabilities": {
-          "refund": 0.0,
-          "app_bug": 1.0,
           "driver_issue": 0.0,
-          "other": 0.0
+          "refund": 0.0,
+          "other": 0.0,
+          "app_bug": 1.0
         }
       }
     },
@@ -319,19 +340,19 @@
           "choice": "app_bug",
           "confidence": 1.0,
           "probabilities": {
-            "refund": 0.0,
-            "app_bug": 1.0,
             "driver_issue": 0.0,
-            "other": 0.0
+            "refund": 0.0,
+            "other": 0.0,
+            "app_bug": 1.0
           }
         }
       },
-      "request_id": "req_01a0d7a564227c2d93243c69497dc2d5"
+      "request_id": "req_01a0dba5b29d765e972e00b6d7776857"
     }
   },
   "1d6e76d40ed0969ce053432cdaa2c70999fc8a93db244337f30747e30d93f588": {
-    "recorded_at": "2026-09-25T15:18:55",
-    "latency_ms": 736.4,
+    "recorded_at": "2026-09-26T09:57:44",
+    "latency_ms": 336.6,
     "state": "The driver was rude to me and threw the bag at my door.",
     "questions": {
       "category": {
@@ -351,10 +372,10 @@
         "choice": "driver_issue",
         "confidence": 1.0,
         "probabilities": {
-          "other": 0.0,
-          "app_bug": 0.0,
           "refund": 0.0,
-          "driver_issue": 1.0
+          "driver_issue": 1.0,
+          "app_bug": 0.0,
+          "other": 0.0
         }
       }
     },
@@ -370,19 +391,19 @@
           "choice": "driver_issue",
           "confidence": 1.0,
           "probabilities": {
-            "other": 0.0,
-            "app_bug": 0.0,
             "refund": 0.0,
-            "driver_issue": 1.0
+            "driver_issue": 1.0,
+            "app_bug": 0.0,
+            "other": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7a5642c73dc9b6744b39ba35490"
+      "request_id": "req_01a0dba5b2987ad9bab9fac6ba3b1536"
     }
   },
   "312c50c009f65601b7b3c752cc59d272f312508f4228eb37d62469c41a3485a2": {
-    "recorded_at": "2026-09-25T15:18:56",
-    "latency_ms": 283.9,
+    "recorded_at": "2026-09-26T09:57:44",
+    "latency_ms": 361.5,
     "state": "The driver was late, the app froze, and I think I paid twice? Not sure.",
     "questions": {
       "category": {
@@ -400,12 +421,12 @@
       "category": {
         "type": "choice",
         "choice": "refund",
-        "confidence": 0.44,
+        "confidence": 0.39,
         "probabilities": {
-          "other": 0.23,
-          "app_bug": 0.18,
           "driver_issue": 0.0,
-          "refund": 0.59
+          "other": 0.26,
+          "app_bug": 0.19,
+          "refund": 0.55
         }
       }
     },
@@ -419,21 +440,21 @@
         "category": {
           "type": "choice",
           "choice": "refund",
-          "confidence": 0.44,
+          "confidence": 0.39,
           "probabilities": {
-            "other": 0.23,
-            "app_bug": 0.18,
             "driver_issue": 0.0,
-            "refund": 0.59
+            "other": 0.26,
+            "app_bug": 0.19,
+            "refund": 0.55
           }
         }
       },
-      "request_id": "req_01a0d7a5654776e6a6eabf4b8036e0e6"
+      "request_id": "req_01a0dba5b3c17dea9df7fc8fb82c916e"
     }
   },
   "1f75a5395a5290da34e51b7f9b4fcf2e74d6071fba5bf193320f11d8d344dfd9": {
-    "recorded_at": "2026-09-25T15:18:56",
-    "latency_ms": 326.0,
+    "recorded_at": "2026-09-26T09:57:44",
+    "latency_ms": 343.6,
     "state": "hmm",
     "questions": {
       "category": {
@@ -453,10 +474,10 @@
         "choice": "other",
         "confidence": 1.0,
         "probabilities": {
-          "other": 1.0,
           "driver_issue": 0.0,
           "refund": 0.0,
-          "app_bug": 0.0
+          "app_bug": 0.0,
+          "other": 1.0
         }
       }
     },
@@ -472,14 +493,14 @@
           "choice": "other",
           "confidence": 1.0,
           "probabilities": {
-            "other": 1.0,
             "driver_issue": 0.0,
             "refund": 0.0,
-            "app_bug": 0.0
+            "app_bug": 0.0,
+            "other": 1.0
           }
         }
       },
-      "request_id": "req_01a0d7a5656a71899df11613c14cb269"
+      "request_id": "req_01a0dba5b3cf7d76bfb531c2ab8a3365"
     }
   },
   "f46cea6f16559cae8d07dc3f012f24a24166be265d9e69579e65309c77c8c641": {
@@ -503,8 +524,8 @@
     }
   },
   "45dab768ed2aa04be84fb843100ad4bb55f452b3e22bf468e0f0eb499ea5c155": {
-    "recorded_at": "2026-09-25T14:56:50",
-    "latency_ms": 745.2,
+    "recorded_at": "2026-09-26T09:44:06",
+    "latency_ms": 358.1,
     "state": "Driver canceled my order 3 times and I got charged twice. Refund me NOW or I'm uninstalling.",
     "questions": {
       "q": {
@@ -532,15 +553,42 @@
         "probabilities": {
           "0": 0.0,
           "1": 0.0,
-          "2": 0.0,
-          "3": 1.0
+          "2": 0.01,
+          "3": 0.99
         }
       }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 345,
+        "output_tokens": 17
+      },
+      "answers": {
+        "q": {
+          "type": "score",
+          "score": 2.99,
+          "confidence": 0.99,
+          "legend": {
+            "0": "Question or minor inconvenience",
+            "1": "Service failed but no money lost",
+            "2": "Customer lost money",
+            "3": "Customer lost money and threatens to leave"
+          },
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.01,
+            "3": 0.99
+          }
+        }
+      },
+      "request_id": "req_01a0db99384b740faf2f5aacc258116a"
     }
   },
   "d12d8854f81a7bc24a4d23d86ad1568d415c3100a6648acf0407371425b817a3": {
-    "recorded_at": "2026-09-25T14:56:59",
-    "latency_ms": 728.7,
+    "recorded_at": "2026-09-26T09:44:26",
+    "latency_ms": 467.6,
     "state": "Driver canceled my order 3 times and I got charged twice. Refund me NOW or I'm uninstalling.",
     "questions": {
       "q": {
@@ -553,11 +601,25 @@
         "type": "noul",
         "noul": 0.98
       }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 299,
+        "output_tokens": 20
+      },
+      "answers": {
+        "q": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "request_id": "req_01a0db9983237737b8e5b9b4bac1be98"
     }
   },
   "3685cdc73369289d546acbd8e9816d7a7e229ec2ca713bad986f3e6a202377c0": {
-    "recorded_at": "2026-09-25T15:18:31",
-    "latency_ms": 745.4,
+    "recorded_at": "2026-09-26T09:52:49",
+    "latency_ms": 502.7,
     "state": "Kapan Jatim Developer Day berikutnya? Aku pengen ikut lagi!",
     "questions": {
       "is_question": {
@@ -593,24 +655,24 @@
         "choice": "happy",
         "confidence": 1.0,
         "probabilities": {
-          "happy": 1.0,
           "upset": 0.0,
+          "happy": 1.0,
           "neutral": 0.0
         }
       },
       "urgency": {
         "type": "score",
-        "score": 0.4,
-        "confidence": 0.4,
+        "score": 0.38,
+        "confidence": 0.42,
         "legend": {
           "0": "Can wait for weeks",
           "1": "Should be handled this week",
           "2": "Needs attention today"
         },
         "probabilities": {
-          "0": 0.61,
-          "1": 0.39,
-          "2": 0.0
+          "0": 0.62,
+          "1": 0.37,
+          "2": 0.01
         }
       }
     },
@@ -630,33 +692,33 @@
           "choice": "happy",
           "confidence": 1.0,
           "probabilities": {
-            "happy": 1.0,
             "upset": 0.0,
+            "happy": 1.0,
             "neutral": 0.0
           }
         },
         "urgency": {
           "type": "score",
-          "score": 0.4,
-          "confidence": 0.4,
+          "score": 0.38,
+          "confidence": 0.42,
           "legend": {
             "0": "Can wait for weeks",
             "1": "Should be handled this week",
             "2": "Needs attention today"
           },
           "probabilities": {
-            "0": 0.61,
-            "1": 0.39,
-            "2": 0.0
+            "0": 0.62,
+            "1": 0.37,
+            "2": 0.01
           }
         }
       },
-      "request_id": "req_01a0d7a5052c7f23b0e43667e2e5e404"
+      "request_id": "req_01a0dba131647035aeb4d5b5d4e8c57b"
     }
   },
   "7bcbbdbec67a3fe130f7a0e27685a8b476101e865aa2827c552cca627d6c7b57": {
-    "recorded_at": "2026-09-25T15:29:38",
-    "latency_ms": 258.4,
+    "recorded_at": "2026-09-26T09:53:08",
+    "latency_ms": 371.3,
     "state": "Driver canceled my order 3 times and I got charged twice. Refund me NOW or I'm uninstalling.",
     "questions": {
       "category": {
@@ -737,10 +799,10 @@
         "choice": "refund",
         "confidence": 0.99,
         "probabilities": {
-          "other": 0.0,
           "app_bug": 0.0,
           "refund": 0.99,
-          "driver_issue": 0.01
+          "driver_issue": 0.01,
+          "other": 0.0
         }
       },
       "severity": {
@@ -782,7 +844,7 @@
       },
       "shouting": {
         "type": "noul",
-        "noul": 0.96
+        "noul": 0.97
       },
       "wants_call": {
         "type": "noul",
@@ -797,9 +859,9 @@
         "choice": "english",
         "confidence": 1.0,
         "probabilities": {
-          "indonesian": 0.0,
+          "mixed": 0.0,
           "english": 1.0,
-          "mixed": 0.0
+          "indonesian": 0.0
         }
       },
       "mood": {
@@ -832,10 +894,10 @@
           "choice": "refund",
           "confidence": 0.99,
           "probabilities": {
-            "other": 0.0,
             "app_bug": 0.0,
             "refund": 0.99,
-            "driver_issue": 0.01
+            "driver_issue": 0.01,
+            "other": 0.0
           }
         },
         "severity": {
@@ -877,7 +939,7 @@
         },
         "shouting": {
           "type": "noul",
-          "noul": 0.96
+          "noul": 0.97
         },
         "wants_call": {
           "type": "noul",
@@ -892,9 +954,9 @@
           "choice": "english",
           "confidence": 1.0,
           "probabilities": {
-            "indonesian": 0.0,
+            "mixed": 0.0,
             "english": 1.0,
-            "mixed": 0.0
+            "indonesian": 0.0
           }
         },
         "mood": {
@@ -915,12 +977,12 @@
           }
         }
       },
-      "request_id": "req_01a0d7af342e7247ac66cd3c3682ca86"
+      "request_id": "req_01a0dba17a967fe2b1209dbeae53a0d0"
     }
   },
   "f84f19f5e015e101d78916628f08a5a5f3855f253f653770707f581bc6e50f44": {
-    "recorded_at": "2026-09-25T15:29:42",
-    "latency_ms": 293.3,
+    "recorded_at": "2026-09-26T09:54:05",
+    "latency_ms": 339.0,
     "state": {
       "from": "BankKita Security <security@bankkita-secure-login.example>",
       "subject": "Your account is locked",
@@ -947,7 +1009,7 @@
       },
       "sender_mismatch": {
         "type": "noul",
-        "noul": 0.48
+        "noul": 0.51
       },
       "unexpected_reward": {
         "type": "noul",
@@ -967,14 +1029,14 @@
         },
         "sender_mismatch": {
           "type": "noul",
-          "noul": 0.48
+          "noul": 0.51
         },
         "unexpected_reward": {
           "type": "noul",
           "noul": 0.99
         }
       },
-      "request_id": "req_01a0d7af42477f2385a7ab6bb740c176"
+      "request_id": "req_01a0dba25ad0775481d3cfec8b04a541"
     }
   },
   "5814f012b6dff65c4bdebab615361c818397881104fbb2dad1635838e0666057": {
@@ -1025,8 +1087,8 @@
     }
   },
   "1cd5e26360cceb7be4ba67c464bb2e01d94fd86814f208e9506f20ad94a67991": {
-    "recorded_at": "2026-09-25T15:18:42",
-    "latency_ms": 280.5,
+    "recorded_at": "2026-09-26T09:56:56",
+    "latency_ms": 443.1,
     "state": {
       "goal": "I want to log in",
       "fixture": {
@@ -1062,14 +1124,14 @@
       "next_action": {
         "type": "choice",
         "choice": "accept_cookies",
-        "confidence": 0.98,
+        "confidence": 0.99,
         "probabilities": {
-          "click_forgot_password": 0.0,
           "type_password": 0.0,
-          "click_sign_up": 0.0,
+          "accept_cookies": 0.99,
+          "type_email": 0.01,
           "click_log_in": 0.0,
-          "accept_cookies": 0.98,
-          "type_email": 0.02
+          "click_sign_up": 0.0,
+          "click_forgot_password": 0.0
         }
       }
     },
@@ -1083,23 +1145,23 @@
         "next_action": {
           "type": "choice",
           "choice": "accept_cookies",
-          "confidence": 0.98,
+          "confidence": 0.99,
           "probabilities": {
-            "click_forgot_password": 0.0,
             "type_password": 0.0,
-            "click_sign_up": 0.0,
+            "accept_cookies": 0.99,
+            "type_email": 0.01,
             "click_log_in": 0.0,
-            "accept_cookies": 0.98,
-            "type_email": 0.02
+            "click_sign_up": 0.0,
+            "click_forgot_password": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7a53018710c9f15a638b74600ba"
+      "request_id": "req_01a0dba4f5b87277a7ee31e2ab22a81b"
     }
   },
   "3069ba3739da686c8a5d420be086597f92c55406207a7d41db63cb30b06d27f3": {
-    "recorded_at": "2026-09-25T15:18:43",
-    "latency_ms": 303.8,
+    "recorded_at": "2026-09-26T09:56:57",
+    "latency_ms": 298.9,
     "state": {
       "goal": "I want to log in",
       "fixture": {
@@ -1138,11 +1200,11 @@
         "choice": "type_email",
         "confidence": 1.0,
         "probabilities": {
-          "click_log_in": 0.0,
-          "click_forgot_password": 0.0,
-          "type_email": 1.0,
+          "click_sign_up": 0.0,
           "type_password": 0.0,
-          "click_sign_up": 0.0
+          "click_log_in": 0.0,
+          "type_email": 1.0,
+          "click_forgot_password": 0.0
         }
       }
     },
@@ -1158,20 +1220,20 @@
           "choice": "type_email",
           "confidence": 1.0,
           "probabilities": {
-            "click_log_in": 0.0,
-            "click_forgot_password": 0.0,
-            "type_email": 1.0,
+            "click_sign_up": 0.0,
             "type_password": 0.0,
-            "click_sign_up": 0.0
+            "click_log_in": 0.0,
+            "type_email": 1.0,
+            "click_forgot_password": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7a53459743aa6aff439177d0935"
+      "request_id": "req_01a0dba4fa4d7ff8b074c7d51fef0d92"
     }
   },
   "f7516587e4711f8c1d3a1db6eb9c3550f2d18be319cbca078854047c0239cd03": {
-    "recorded_at": "2026-09-25T15:18:44",
-    "latency_ms": 273.3,
+    "recorded_at": "2026-09-26T09:56:58",
+    "latency_ms": 323.7,
     "state": {
       "goal": "I want to log in",
       "fixture": {
@@ -1212,10 +1274,10 @@
         "confidence": 1.0,
         "probabilities": {
           "type_password": 1.0,
-          "click_sign_up": 0.0,
-          "click_log_in": 0.0,
           "click_forgot_password": 0.0,
-          "type_email": 0.0
+          "click_sign_up": 0.0,
+          "type_email": 0.0,
+          "click_log_in": 0.0
         }
       }
     },
@@ -1232,19 +1294,19 @@
           "confidence": 1.0,
           "probabilities": {
             "type_password": 1.0,
-            "click_sign_up": 0.0,
-            "click_log_in": 0.0,
             "click_forgot_password": 0.0,
-            "type_email": 0.0
+            "click_sign_up": 0.0,
+            "type_email": 0.0,
+            "click_log_in": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7a538b97c21a3f3b0efe434ca44"
+      "request_id": "req_01a0dba4fea975d9bbcddad8e8106e4b"
     }
   },
   "e56d3b1feb868e4f78c266a9c17a46bfbc3d508aa85d2d33060a873e43c8ab22": {
-    "recorded_at": "2026-09-25T15:18:45",
-    "latency_ms": 259.3,
+    "recorded_at": "2026-09-26T09:56:59",
+    "latency_ms": 299.4,
     "state": {
       "goal": "I want to log in",
       "fixture": {
@@ -1285,11 +1347,11 @@
         "choice": "click_log_in",
         "confidence": 1.0,
         "probabilities": {
+          "type_password": 0.0,
           "click_forgot_password": 0.0,
-          "click_log_in": 1.0,
-          "type_email": 0.0,
           "click_sign_up": 0.0,
-          "type_password": 0.0
+          "type_email": 0.0,
+          "click_log_in": 1.0
         }
       }
     },
@@ -1305,20 +1367,20 @@
           "choice": "click_log_in",
           "confidence": 1.0,
           "probabilities": {
+            "type_password": 0.0,
             "click_forgot_password": 0.0,
-            "click_log_in": 1.0,
-            "type_email": 0.0,
             "click_sign_up": 0.0,
-            "type_password": 0.0
+            "type_email": 0.0,
+            "click_log_in": 1.0
           }
         }
       },
-      "request_id": "req_01a0d7a53cf97a0cad39a7aa052e51ed"
+      "request_id": "req_01a0dba5031c7ed99ec1c2f8f09c5fd4"
     }
   },
   "a09384a217a0deac2ba1a51a9b371618b6c940097743c1c20da479ef6641ff83": {
-    "recorded_at": "2026-09-25T15:18:46",
-    "latency_ms": 271.3,
+    "recorded_at": "2026-09-26T09:57:00",
+    "latency_ms": 323.9,
     "state": {
       "goal": "I want to log in",
       "fixture": {
@@ -1358,10 +1420,10 @@
         "choice": "type_otp",
         "confidence": 0.97,
         "probabilities": {
+          "type_otp": 0.98,
           "click_back": 0.0,
-          "click_resend_code": 0.02,
           "click_verify": 0.0,
-          "type_otp": 0.98
+          "click_resend_code": 0.02
         }
       }
     },
@@ -1377,19 +1439,19 @@
           "choice": "type_otp",
           "confidence": 0.97,
           "probabilities": {
+            "type_otp": 0.98,
             "click_back": 0.0,
-            "click_resend_code": 0.02,
             "click_verify": 0.0,
-            "type_otp": 0.98
+            "click_resend_code": 0.02
           }
         }
       },
-      "request_id": "req_01a0d7a541207f519fb059ee4f035bbb"
+      "request_id": "req_01a0dba50776753d8bc0148f0676db17"
     }
   },
   "fff2c469b2e31fedeedaab28132ac64191ea18d0abfa3be84dd3953710eaaced": {
-    "recorded_at": "2026-09-25T15:18:47",
-    "latency_ms": 273.7,
+    "recorded_at": "2026-09-26T09:57:01",
+    "latency_ms": 312.8,
     "state": {
       "goal": "I want to log in",
       "fixture": {
@@ -1430,9 +1492,9 @@
         "confidence": 1.0,
         "probabilities": {
           "click_back": 0.0,
+          "type_otp": 0.0,
           "click_verify": 1.0,
-          "click_resend_code": 0.0,
-          "type_otp": 0.0
+          "click_resend_code": 0.0
         }
       }
     },
@@ -1449,13 +1511,13 @@
           "confidence": 1.0,
           "probabilities": {
             "click_back": 0.0,
+            "type_otp": 0.0,
             "click_verify": 1.0,
-            "click_resend_code": 0.0,
-            "type_otp": 0.0
+            "click_resend_code": 0.0
           }
         }
       },
-      "request_id": "req_01a0d7a54565791ba809b039e4630391"
+      "request_id": "req_01a0dba50bec76f3bdc570f01defcea8"
     }
   },
   "cf153c3ecde6301e569dd958b92789a4d73527c82a8bba48ade1e2bd2c31bf4c": {
@@ -2209,6 +2271,105 @@
         }
       },
       "request_id": "req_01a0d7aedde179a1b36a3c4e86845d35"
+    }
+  },
+  "762af9d0007e8996aee7b5d9171f2de2605fd0691ad3a432c1fc7e5a5edd0997": {
+    "recorded_at": "2026-09-26T10:04:36",
+    "latency_ms": 403.7,
+    "state": "apakah mas imam ganteng bangettt",
+    "questions": {
+      "is_question": {
+        "type": "noul",
+        "instructions": "The message asks a question"
+      },
+      "mood": {
+        "type": "choice",
+        "instructions": "What is the mood of the message?",
+        "criteria": {
+          "happy": "Positive",
+          "neutral": "Neither positive nor negative",
+          "upset": "Negative"
+        }
+      },
+      "urgency": {
+        "type": "score",
+        "instructions": "How urgent is the message?",
+        "criteria": [
+          "Can wait for weeks",
+          "Should be handled this week",
+          "Needs attention today"
+        ]
+      }
+    },
+    "answers": {
+      "is_question": {
+        "type": "noul",
+        "noul": 0.98
+      },
+      "mood": {
+        "type": "choice",
+        "choice": "happy",
+        "confidence": 0.98,
+        "probabilities": {
+          "upset": 0.0,
+          "neutral": 0.01,
+          "happy": 0.99
+        }
+      },
+      "urgency": {
+        "type": "score",
+        "score": 0.06,
+        "confidence": 0.92,
+        "legend": {
+          "0": "Can wait for weeks",
+          "1": "Should be handled this week",
+          "2": "Needs attention today"
+        },
+        "probabilities": {
+          "0": 0.96,
+          "1": 0.02,
+          "2": 0.02
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 391,
+        "output_tokens": 72
+      },
+      "answers": {
+        "is_question": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "mood": {
+          "type": "choice",
+          "choice": "happy",
+          "confidence": 0.98,
+          "probabilities": {
+            "upset": 0.0,
+            "neutral": 0.01,
+            "happy": 0.99
+          }
+        },
+        "urgency": {
+          "type": "score",
+          "score": 0.06,
+          "confidence": 0.92,
+          "legend": {
+            "0": "Can wait for weeks",
+            "1": "Should be handled this week",
+            "2": "Needs attention today"
+          },
+          "probabilities": {
+            "0": 0.96,
+            "1": 0.02,
+            "2": 0.02
+          }
+        }
+      },
+      "request_id": "req_01a0dbabfb797cbc8d1d64baeb6a1865"
     }
   }
 }
